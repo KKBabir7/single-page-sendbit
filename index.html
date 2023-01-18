@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>sendbit</title>
+            <meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="icon" href="img/calicon.png" type="image/png" sizes="16x16">
+            <link rel="stylesheet" href="css/bootstrap.min.css">
+		    <link rel="stylesheet" href="css/bootstrap.css">
+		    <link rel="stylesheet" href="css/style.css">
+			<link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+			<link rel="stylesheet" href="css/material-design-iconic-font.css">
+		    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+		    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet">
+			<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+			<div class="container-fluid" id="navbarcontainer">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>                        
+				    </button>
+				  <a class="navbar-brand" href="#"><img  src="img/logo/logo.webp"></a>
+				</div>
+				<div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav  navbar-right">
+							<li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#whitepaper">Whitepaper</a></li>
+							<li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#buy">Buy Coin</a></li>
+							<li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#merchants">Merchants</a></li>
+							<li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#partners">Partners</a></li>
+							<li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#epos">EPOS</a></li>
+							<li class="create-li"><a class="create" href="#" role="button">Create Account</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+        </nav>    
+		<div id="mainSection" class="container-fluid">
+		    <div class="jumbotron">
+			    <div class="row">
+			        <div class="col-md-6 left-content">
+					    <h1><span>Instant</span> <span>Crypto</span> <span>to</span> <span>Fiat</span> <span>Settlements</span>
+						</h1>
+					    <p><span>Accept</span> <span>Crypto</span> <span>& </span> <span>Recieve</span> <span>in</span> <b><span>EUR</span>  <span>GBP</span> <span> USD</span> <span>EUR</span></b></p>
+					</div>
+					<div class="col-md-6 right-content">
+					    <img class="black" src="img/main-section/BLACK_edited.webp">
+					    <img class="gif" src="img/main-section/gift.gif">
+					
+					</div>
+			    </div>
+				<div class="row">
+			        <div class="col-md-6 left-content">
+					    
+						<img class="send-img"  src="img/main-section/sendbg.png">
+					</div>
+					<div class="col-md-6 right-content second-right">
+					   <p>I'm a paragraph. Click here to add your own text and edit me.<br> Letyour users get to know you.</p>
+					   <a id="hh" class="btn btn-primary slideanim" href="#"><img class="slideanim"  id="hhop" src="img/main-section/api.webp"> <span style="top:-5px;position: relative;">View API Document</span></a>
+					    <h1 data-aos="fade-up"  data-aos-duration="1000">Easy to Use <br>Dashboard</h1>
+					</div>
+			    </div>
+				
+			</div>
+		</div>
+		
+		<div style="background:#fff">
+		<div id="whitepaper" class="container-fluid">
+		    <div class="jumbotron">
+			    <div class="row">
+			        <div class="col-md-12">
+					    <h1 class="ex-title">Exchange</h1>
+				    </div>
+				</div>
+			    <div class="row">
+			        <div class="col-md-5 col-sm-5">
+						<div  data-aos="fade-right"
+                              data-aos-duration="2000" class="input-group">
+							<input type="text" onkeyup="eurf()" id="eurf" class="form-control input-send" autocomplete="off" placeholder="0.00" maxlength="20"   aria-describedby="basic-addon">
+							 <span class="you-send">You Send</span>
+							<span class="input-group-addon" id="basic-addon">
+							<b style="font-size:13px;text-align:justify;text-align: justify;position: absolute;left: 42px;top: 20px;">Bitcoin</b><br>
+							EUR</span>
+							<p class="equal">1 BTC ~ 15.01627067 ETH</p>
+						</div>
+		            </div>
+					<div class="col-md-2 col-sm-2 exchange-img">
+					    <center><img src="img/whitepaper/exchange.webp"></center>
+				
+		            </div>
+					<div data-aos="fade-left"
+                        data-aos-duration="2000" class="col-md-5 col-sm-5">
+					    <div class="input-group">
+							<input type="text" onkeyup="eurf()" id="eurf" class="form-control input-send" autocomplete="off" placeholder="0.00" maxlength="20"   aria-describedby="basic-addon">
+							 <span class="you-send">You Recieve</span>
+							<span class="input-group-addon" id="basic-addon">
+							<b style="font-size:13px;text-align:justify;text-align: justify;position: absolute;left: 42px;top: 20px;">Bitcoin</b><br>
+							EUR</span>
+						</div>
+		            </div>
+	 	        </div>
+				<br><br>
+				 <div class="row send-ex">
+			        <div class="col-md-7 send-ex-content">
+					    <p data-aos="fade-up"  data-aos-duration="1500">Fast and secure way to exchange and purchase 150+ cryptocurrencies. 24/7 live-chat support.</p>
+				    </div>
+					<div  data-aos="fade-up"  data-aos-duration="1500" class="col-md-5 send-ex-btn">
+					    <button class="btn btn-primary">SEND EXCHNAGE</button>
+				    </div>
+					
+				</div>
+				
+	 	    </div>
+		</div>
+		</div>
+		<div style="background:#fff">
+		<div id="buy" class="container-fluid">
+		     <div class="jumbotron">
+			    <div class="row">
+			        <div data-aos="fade-right"  data-aos-duration="1500" class="col-md-7">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<h1>We Make it Easy For Our <br>Business Clients</h1>
+							<p>Secure Fast Easy to Exchange Crypto Assets</p>
+						</div>
+						<img src="img/buy/Crypto-Instant_exposure-Litecoin.webp">
+					</div>
+					  
+		            </div>
+					<div data-aos="fade-left"  data-aos-duration="2500" class="col-md-5 right-img">
+					    <img class="mobile-img" src="img/buy/mobile.webp">
+					    <img id="hhop" class="dot-img" src="img/buy/dot.webp">
+					    <img class="dot-img1" src="img/buy/dot.webp"> 
+		            </div>
+		        </div>
+				<div class="row business-make">
+			        <div data-aos="fade-up"  data-aos-duration="1500" class="col-md-6 business-content">
+					    <h2>02. Cost-Effective</h2>
+						<p>I'm a paragraph. Click here to add your own text and edit me. It’s easy.Just click “Edit Text” or double click me to add your own content andmake changes to the font.</p>
+					    <br><br><br><br><br>
+						<h2>03. Real-Time Analytics</h2>
+						<p>I'm a paragraph. Click here to add your own text and edit me. It’s easy.Just click “Edit Text” or double click me to add your own content andmake changes to the font.</p>
+						<br><br><br><br><br>
+						<div class="row about-ceo">
+						    <div data-aos="fade-right"  data-aos-duration="2000" class="col-md-6">
+							    <img  class="about-ceo-img img-responsive" src="img/buy/ceo.webp">
+							</div>
+						    <div class="col-md-6 ceo">
+							    <h3>About CEO</h3>
+								<br><br>
+								<h4>Having that one vision digitalcurrency is the future</h4>
+								<br><br>
+								<ul class="socile-icon">
+								    <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+									<li><a href="#"><i class="fa fa-tumblr"></i></a></li>
+									<li><a href="#"><i class="fa fa-instagram"></i></a></li> 
+								</ul>
+							</div>
+						
+						</div>
+				    </div>
+					<div class="col-md-6 map">
+					    <h2>Road Map</h2>
+					    <div class="year">
+						    <h3 class="slideanim">2018</h3>
+						    <p>Senbit / SendEx Development</p>
+						</div>
+						<div class="year">
+						    <h3 class="slideanim">2019</h3>
+						    <p>SendEx X SenBit Testing Phase</p>
+						</div>
+						<div class="year">
+						    <h3 class="slideanim">2020</h3>
+						    <p>Deploy Testing Crowdfunding</p>
+						</div>
+						<div class="year">
+						    <h3 class="slideanim">2021</h3>
+						    <p>Awaiting SEPA / FCA Approval</p>
+						</div>
+						<div class="year">
+						    <h3 class="slideanim">2022</h3>
+						    <p>SENDEX Exchanger Official Launch</p>
+						</div>
+						<div class="year">
+						    <h3 class="slideanim">2023</h3>
+						    <p>Listing on Coinmarketcap / Coingeko / </p>
+						</div>
+						
+				    </div>
+				</div>
+				
+		    </div>
+		</div>
+		</div>
+		<div  id="better" class="container-fluid">
+		    <div class="jumbotron">
+			    <div class="row better">
+			        <div data-aos="fade-up"  data-aos-duration="1500" class="col-md-12">
+					    <center>
+						    <h1>Understand Your Users Better</h1>
+							<p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add <br>your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a <br>little more about you.</p>
+							<button class="btn btn-primary">Get Demo</button>
+					    </center>
+				    </div>
+				</div>
+		    </div>
+		</div>
+		<div style="background:#fff">
+		<div id="merchants" class="container-fluid">
+		    <div class="jumbotron">
+			    <div class="row">
+			        <div data-aos="fade-right"  data-aos-duration="1000" class="col-md-6">
+				       <h1>Exchange Your Crypto On SENDEX</h1>
+				       <h2>200+ Countries</h2>
+				       <h2>20+ Million</h2>
+				       <h2>100+ Trading Pairs</h2>
+				       <h2>24/7 Support</h2>
+				    </div>
+					<div data-aos="fade-left"  data-aos-duration="2500" class="col-md-6">
+				        <img class="marchent-img" src="img/marchent/1.webp">
+				    </div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div id="partners" class="container-fluid" style="padding:0;">
+		    <div class="jumbotron">
+			    <div data-aos="fade-up"  data-aos-duration="1500" class="row">
+				    <div class="col-md-1">
+			        </div>
+			        <div class="col-md-3">
+					    <h1 style="color:#ffffff;font-weight:bold;margin-top:60px;">Listings<br><b style="font-size:40px;position:absolute;">Partner</b></h1>
+						
+			        </div>
+					<div class="col-md-8 s-img">
+					    <ul>
+						    <li><center><img class="sa" src="img/prantners/1.webp"></center></li>
+						    <li><center><img class="sb"  src="img/prantners/2.webp"></center></li>
+						    <li> <center><img class="sc" src="img/prantners/3.webp"></center></li>
+						</ul>
+			        </div>
+			    </div>
+                <hr style="width:1300%;margin-left:-650px;">
+                <div class="row rich">
+				    <div class="col-md-1">
+					</div>
+				    <div data-aos="fade-right"  data-aos-duration="1500" class="col-md-10">
+					    <p>Richard Heiman <span>|</span> CEO at Mikron</p>
+					    <h2>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”</h2>
+			        </div>
+			        <div class="col-md-1">
+					</div>
+			    </div>
+				
+			</div>
+			<div data-aos="fade-up"  data-aos-duration="1500" class="row team">
+				<div class="col-md-3 col-sm-4">
+					<div class="thumbnail">
+						<img src="img/prantners/a.webp" alt="...">
+						<div class="caption">
+							<center>
+							<h1><b>OUR</b> <br>TEAM</h1><br>
+							<i style="transform:rotate(140deg);font-size:50px;font-weight:100;" class="fa fa-minus"></i>
+							<br><br>
+							<p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p><br>
+							<a class="read" href="#">Read More</a>
+							</center>
+						</div>
+				    </div>
+			    </div>
+				<div class="col-md-3 col-sm-4">
+					<div class="thumbnail">
+						<img src="img/prantners/b.webp" alt="...">
+						<div class="caption">
+							<center>
+							<h1><b>OUR</b> <br>TEAM</h1><br>
+							<i style="transform:rotate(140deg);font-size:50px;font-weight:100;" class="fa fa-minus"></i>
+							<br><br>
+							<p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p><br>
+							<a class="read" href="#">Read More</a>
+							</center>
+						</div>
+				    </div>
+			    </div>
+				<div class="col-md-3 col-sm-4">
+					<div class="thumbnail">
+						<img src="img/prantners/c.webp" alt="...">
+						<div class="caption">
+							<center>
+							<h1><b>OUR</b> <br>TEAM</h1><br>
+							<i style="transform:rotate(140deg);font-size:50px;font-weight:100;" class="fa fa-minus"></i>
+							<br><br>
+							<p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p><br>
+							<a class="read" href="#">Read More</a>
+							</center>
+						</div>
+				    </div>
+			    </div>
+				<div class="col-md-3 col-sm-4">
+					<div class="thumbnail">
+						<img src="img/prantners/a.webp" alt="...">
+						<div class="caption">
+							<center>
+							<h1><b>OUR</b> <br>TEAM</h1><br>
+							<i style="transform:rotate(140deg);font-size:50px;font-weight:100;" class="fa fa-minus"></i>
+							<br><br>
+							<p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p><br>
+							<a class="read" href="#">Read More</a>
+							</center>
+						</div>
+				    </div>
+			    </div>
+				
+			</div>
+		</div>
+		<div style="background:#fff;">
+		<div id="epos" class="container-fluid">
+		    <div data-aos="fade-left"  data-aos-duration="1500" class="jumbotron">
+			    <div class="row">
+			        <div class="col-md-12">
+					    <center><h1 class="ex-title"><b>21B</b> Coins Supply</h1></center>
+				    </div>
+				</div><br><br><br>
+				 <div class="row round-hole">
+			        <div class="col-md-4">
+                        <div class="panel panel-default">
+							<div class="panel-body">
+								<center><h3>1ST ROUND <b>$0.003</b></h3></center>
+								<p>2.3 Billion Round One</p>
+							</div>
+						</div>
+				    </div>
+					<div class="col-md-4">
+                        <div class="panel panel-default panelnone dlklop">
+							<div class="panel-body">
+								<center><h3>2ND ROUND <b>$0.007</b></h3></center>
+								<span class="pending">PENDING</span>&nbsp;<p>2.3 Billion Round One</p>
+							</div>
+						</div>
+				    </div>
+					<div class="col-md-4">
+                        <div  class="panel panel-default panelnone dlkl">
+							<div class="panel-body">
+								<center><h3 style="send-last">2ND ROUND <b>$0.009</b></h3></center>
+								<span class="pending">PENDING</span>&nbsp;<p>2.3 Billion Round One</p>
+							</div>
+						</div>
+				    </div>
+					
+				</div>
+				<br>
+				 <div class="row countdown">
+			        <div class="col-md-6">
+					   <h3 style="font-weight:bold;margin-bottom:50px;">1st Round Pre Sale Ends</h3>
+					   <div id="countdown">
+							<div class="cd-box">
+								<p class="numbers days">00</p><br>
+								<p class="strings timeRefDays">Days</p>
+							</div>
+							<div class="cd-box">
+								<p class="numbers hours">00</p><br>
+								<p class="strings timeRefHours">Hours</p>
+							</div>
+							<div class="cd-box">
+								<p class="numbers minutes">00</p><br>
+								<p class="strings timeRefMinutes">Minutes</p>
+							</div>
+							<div class="cd-box">
+								<p class="numbers seconds">00</p><br>
+								<p class="strings timeRefSeconds">Seconds</p>
+							</div>
+						</div><br><br><br><br><br><br>
+						<div class="row usdf">
+						    <div class="col-md-6">
+							    <p style="font-size:12px;">Your wallet is not connected to the website.</p>
+							</div>
+							<div class="col-md-6">
+							    <button class="btn btn-primary">Connect Wallet &nbsp;<i class="fa fa-angle-right"></i></button>
+							</div>
+							
+						</div>
+				    </div>
+					<div class="col-md-6 range-slider">
+					    <button class="btn btn-primary">Whitepaper</button>
+						<div class="range-wrap">
+						    <input type="range" value="20" step="5" class="range">
+							<output class="bubble"></output>
+						</div>
+						<div class="row">
+						    <div class="col-md-6 col-sm-6 col-xs-6">
+							    <p style="font-size:12px;"> <b>Soft Cap</b> $2,500,000</p>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6">
+							    <p style="font-size:12px;float:right"><b>Hard Cap</b>  $10,000,000</p>
+							</div>
+						</div>
+				    </div>
+					
+				</div>
+				<br>
+				<div class="row select-send">
+			        <div class="col-md-offset-5 col-sm-offset-7 select-send-left">
+					    <p style="font-size:16px;">Select Wallet</p>
+						<div class="btn-group">
+						    <button type="button" class="btn btn-primary">BTC</button>
+						    <button type="button" class="btn btn-primary">ETH</button>
+						    <button type="button" class="btn btn-primary">DASH</button>
+						    <button type="button" class="btn btn-primary">USDT</button>
+						
+						</div>
+				    </div>
+				</div><br>
+			    <div class="row sendbit-send">
+			        <div class="col-md-4 col-sm-5">
+						<div class="input-group">
+							<input type="text" onkeyup="eurf()" id="eurf" class="form-control input-send" autocomplete="off" placeholder="0.00" maxlength="20"   aria-describedby="basic-addon">
+							<span class="input-group-addon" id="basic-addon">
+							<b style="font-size:13px;text-align:justify;text-align: justify;position: absolute;left: 42px;top: 20px;">Senbit</b><br>
+							SB</span>
+							
+						</div>
+		            </div>
+					<div class="col-md-1 col-sm-2 exchange-img">
+					    <center><img src="img/whitepaper/exchange.webp"></center>
+				
+		            </div>
+					<div class="col-md-4 col-sm-5">
+					    <div class="input-group">
+							<input type="text" onkeyup="eurf()" id="eurf" class="form-control input-send" autocomplete="off" placeholder="0.00" maxlength="20"   aria-describedby="basic-addon">
+							<span class="input-group-addon" id="basic-addon">
+							<b style="font-size:13px;text-align:justify;text-align: justify;position: absolute;left: 42px;top: 20px;">Bitcoin</b><br>
+							BTC</span>
+						</div>
+		            </div>
+					<div class="col-md-3 col-sm-12 buy-now">
+					    <button class="btn btn-primary">Buy Now &nbsp;&nbsp;<i class="fa fa-angle-right"></i></button>
+					</div>
+	 	        </div>
+				<br><br>
+	 	    </div>
+		</div>
+		</div>
+		<div class="container-fluid">
+		    <div class="row bank">
+			    <div class="col-md-12">
+				    <h1 id="bankfg" class="slideanim"><span>C</span><span>Y</span><span>P</span><span>T</span><span>O</span> <span>T</span><span>O</span> <span>Y</span><span>O</span><span>U</span><span>R</span> <span>B</span><span>A</span><span>N</span><span>K</span> <span>I</span><span>N</span>  <span>M</span><span>I</span><span>N</span><span>U</span><span>T</span><span>E</span><span>S</span></h1>
+				</div>
+			</div>
+		    
+		</div>
+		<div style="background:#fff">
+		<div id="crow" class="container-fluid">
+		    <div class="jumbotron">
+				<div class="row crow">
+					<div class="col-md-4 col-sm-4">
+					   <h3 class="h3a">1 CLICK TRANSFER</h3>
+					</div>
+					<div class="col-md-4 col-sm-4">
+					   <h3 class="h3b">SAME DAY BANK TRANSFER</h3>
+					</div>
+					<div class="col-md-4 col-sm-4">
+					   <h3 class="h3c">SAME DAY BANK TRANSFER</h3>
+					</div>
+				</div>
+				<div class="row crow-img">
+					<div class="col-md-8 col-sm-8 col-xs-9">
+					    <img class="img-responsive" src="img/crow/1.webp">
+					    
+					</div>
+					<div class="col-md-1 col-sm-1 arow">
+					   <i  data-aos-easing="linear"
+                       data-aos-duration="1500" data-aos="fade-right" class="fa fa-long-arrow-right"></i><br>
+					   <i  data-aos-easing="linear"
+                       data-aos-duration="1500" data-aos="fade-left" class="fa fa-long-arrow-left"></i>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-3">
+					   
+					    <img id="lko" class="img-responsive slideanim" src="img/crow/2.webp">
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+		</div>
+		<footer class="footer container-fluid" style="padding-left:0;padding-right:0;">
+		    <div class="container">
+			    <div class="row">
+			        <div class="col-md-6 col-sm-6">
+					    <p>EMAIL. INFO@MYSITE.COM</p>
+					</div>
+					<div class="col-md-6 col-sm-6">
+					    <ul class="socile-icon">
+							<li>SOCIAL MEDIA.</li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="#"><i class="fa fa-youtube"></i></a></li> 
+						</ul>
+					</div>
+			    </div>
+		    </div>
+			<hr>
+			<div class="container">
+			    <div class="row leagl-row">
+			        <div class="col-md-4 col-sm-4">
+					    <p>TELEPHONE. 123-456-7890</p><br>
+					    <p>support@sendbit.io <i class="fa fa-envelope-open"></i></p>
+					</div>
+					<div class="col-md-4 col-sm-4 leagl">
+					    <p>Legal and privacy</p>
+						    <ul>
+							    <li><a href="#">Terms of service </a></li>
+							    <li><a href="#">Privacy policy </a></li>
+							    <li><a href="#">Disclosures </a></li>
+							    <li><a href="#">Whistleblower notice </a></li>
+							    <li><a href="#">Law enforcement</a></li>
+							</ul>
+					</div>
+					<div class="col-md-4 col-sm-4 leagl">
+					   <p>Service</p>
+					        <ul>
+							    <li><a href="#">V3 API</a></li>
+							    <li><a href="#">V5 API</a></li>
+							    <li><a href="#">Token listing</a></li>
+							    <li><a href="#">Announcements</a></li>
+							    
+							</ul>
+					</div>
+					
+			    </div>
+		    </div>
+			<hr>
+			<div class="container">
+			    <div class="row io-row">
+			        <div class="col-md-6 col-sm-6">
+					    <p>©2023 BY SENDEX.IO</p>
+					    <p>SENDEX.IO IS PROPERTY OF SENDBIT.IO</p>
+					</div>
+					<div class="col-md-6 col-sm-6">
+					   <img src="img/logo/logo.webp">
+					</div>
+					
+					<p class="link-io">Links: Bitcoin Bitcoin ExchangeBitcoin Price Bitcoin Wallet BTC Exchange BTC to INRBuy BitcoinBuy CryptoBuy CryptocurrencyBuy EthereumBuy Litecoin(LTC) Cryptocurrency NewsEthereum PriceFree BitcoinFutures Trading Limit Order Options Trading Ripple Stop Limit OrderWhat is BitcoinWhat is Blockchain What is Cryptocurrency Cryptocurrency List</p>
+			    </div>
+		    </div>
+		</footer>
+		<p onclick="messege()" id="msggone" class="msg-box"><i class="fa fa-commenting"></i></p>
+		<div id="msgb" class="main-section">
+		    <div class="row border-chat">
+				<div class="col-md-12 col-sm-12 col-xs-12 first-section">
+					<div class="row">
+						<div class="col-md-8 col-sm-6 col-xs-6 left-first-section">
+							<p>Chat</p>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-6 right-first-section">
+							<a onclick="croxx()" id="croxx" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+						</div>
+					</div>
+                </div>
+            </div>
+			<div class="row border-chat">
+				<div class="col-md-12 col-sm-12 col-xs-12 second-section">
+				    <div class="chat-section">
+				        <ul>
+				            <li>
+								<div class="left-chat">
+								    <img src="img/msg/1.jpg">
+								    <p>Lorem ipsum dolor sit ameeserunt.</p>
+								    <span>2 min</span>
+								</div>
+				            </li>
+							<li>
+								<div class="right-chat">
+									<img src="img/msg/2.png">
+									<p>Lorem ipsum dolor sit ameeserunt.</p>
+									<span>2 min</span>
+								</div>
+							</li>
+							<li>
+								<div class="left-chat">
+									<img src="img/msg/1.jpg">
+									<p>Lorem ipsum dolor sit ameeserunt.</p>
+									<span>2 min</span>
+								</div>
+							</li>
+							<li>
+								<div class="right-chat">
+									<img src="img/msg/2.png">
+									<p>Lorem ipsum dolor sit ameeserunt.</p>
+									<span>2 min</span>
+								</div>
+							</li>
+							<li>
+								<div class="left-chat">
+									<img src="img/msg/1.jpg">
+									<p>Lorem ipsum dolor sit ameeserunt.</p>
+									<span>2 min</span>
+								</div>
+							</li>
+							<li>
+								<div class="right-chat">
+									<img src="img/msg/2.png">
+									<p>Lorem ipsum dolor sit ameeserunt.</p>
+									<span>2 min</span>
+								</div>
+							</li>
+							<li>
+								<div class="left-chat">
+									<img src="img/msg/1.jpg">
+									<p>Lorem ipsum dolor sit ameeserunt.</p>
+									<span>2 min</span>
+								</div>
+							</li>
+							<li>
+								<div class="right-chat">
+									<img src="img/msg/2.png">
+									<p>Lorem ipsum dolor sit ameeserunt.</p>
+									<span>2 min</span>
+								</div>
+							</li>
+                        </ul>
+					</div>
+				</div>
+			</div>
+			<div class="row border-chat">
+				<div class="col-md-12 col-sm-12 col-xs-12 third-section">
+					<div class="text-bar">
+					<input type="text" placeholder="Write messege"><a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+           <script src="js/bootstrap.js"></script>
+		   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		   <script src="js/bootstrap.min.js"></script>
+		   <script src="js/extarnal.js"></script>	  
+    </body>
+</html>
