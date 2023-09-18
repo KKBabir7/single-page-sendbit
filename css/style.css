@@ -1919,6 +1919,10 @@ border-top-color:#fff;
 	
 }
 @media only screen and (max-width :768px) {
+	.navbar .navbar-right .create {
+   width:180px;
+    text-align: center;
+	}
 .navbar .nav li{
 	margin-left:16px;
 }
